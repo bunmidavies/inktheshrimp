@@ -10,7 +10,7 @@ body {
     margin-top:20px;
     margin-bottom:20px;
     font-family:Comfortaa;
-    animation:fadein 1s;
+    animation:fadein 1.5s;
 }
 a {
     text-decoration: none;
@@ -36,11 +36,16 @@ a:hover{
     border-bottom:solid 3px rgb(180, 212, 207);
     font-size:16px;
     
+    
+}
+#about span{
+    width:40%;
 }
 
 #gallery{
     margin-top:30px;
-
+    padding-bottom:30px;
+    border-bottom:solid 3px rgb(46, 202, 80);
 }
 
 
@@ -53,7 +58,7 @@ a:hover{
     left:0;
     transition:.5s;
     background-color:rgba(180, 212, 207, 0.623);
-    border-radius: 10px;
+    border-radius: 30px;
     height:100%;
     width:100%;
 }
