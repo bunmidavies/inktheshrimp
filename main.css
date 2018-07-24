@@ -13,10 +13,10 @@ body {
     animation:fadein 1.5s;
 }
 
-#homeLink{animation:fadein 1.5s;}
-#aboutLink{animation:fadein 2.5s;}
-#donateLink{animation:fadein 3.5s;}
-#contactLink{animation:fadein 4s;}
+#homeLink{animation:fadein .5s;}
+#aboutLink{animation:fadein 1s;}
+#donateLink{animation:fadein 1.5s;}
+#contactLink{animation:fadein 2s;}
 
 a {
     text-decoration: none;
@@ -83,9 +83,16 @@ a:hover{
 .col-md-4:hover .overlay{
     opacity:1;
 }
+
+.col-md-4{
+    -webkit-backface-visibility: hidden;
+    -webkit-transform: translateZ(0) scale(1.0, 1.0);
+    transform: translateZ(0);
+}
 .col-md-4:hover #galleryimg{
     filter: blur(5px);
     transition:.5s ease;
+    
 }
 
 .overlay #insta {
