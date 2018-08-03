@@ -49,11 +49,12 @@ a:hover{
 }
 
 #gallery{
+    border-top:solid 3px rgb(180, 212, 207);
     margin-top:30px;
     padding-bottom:30px;
+    padding-top:30px;
     border-bottom:solid 3px rgb(46, 202, 80);
 }
-
 
 
 .overlay{
